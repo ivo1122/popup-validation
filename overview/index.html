@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <script defer src="index.js"></script>
+
+    <title>Document</title>
+      
+  </head>
+  <body>
+
+<form class="form" id="form" method="GET"> 
+  
+   <header class="header">
+        <h1>Kontakt</h1>
+      </header>
+
+      <div class="form-control">
+        <h2>Ime</h2>
+        <input type="text"  id="username" autocomplete="off"> 
+        
+    </div>
+
+    <div class="form-control">
+      <h2>Prezime</h2>
+      <input type="text"  id="surname" autocomplete="off"> 
+      
+  </div>
+
+    <div class="form-control">
+        <h2>Email</h2>
+        <input type="text"  id="email" autocomplete="false"> 
+        
+    </div>
+
+    <div class="form-control">
+        <h2 for="username">Detalji</h2>
+        <input type="text"  id="details" autocomplete="off"> 
+        
+    </div>
+
+    <div class="newsletter">
+      <h2 id="clicked">Pretplati se na newsletter</h2>
+      <input type="checkbox" class="checkbox" id="checkbox"/>
+    </div>
+
+    <button type="submit" id="btn" class="btn">Kreni</button>
+
+  </div>
+
+  
+  
+
+</form>
+
+    <div class="container">
+
+      <div class="popup" id="popup">
+          <img src="../404-tick.png" alt="">
+          <h2>Hvala Vam!</h2>
+          <p>Vasi podatci su zaprimljeni</p>
+          <button type="button" id="popup-btn" onclick="closePopup()">OK</button>
+
+      </div>
+  </body>
+</html>
+
+

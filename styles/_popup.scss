@@ -1,0 +1,65 @@
+
+
+.container {
+
+
+     .popup {
+        width: 400px;
+        border-radius: 6px;
+        background: #fff;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%,-50%) scale(0.1);
+        text-align: center;
+        padding: 0 30px 30px;
+        color: #333;
+        visibility: hidden;
+        transition: 0.5s;
+        
+    } 
+
+     .btn {
+        padding: 10px 60px;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        font-size: 22px;
+        font-weight: 500;
+        border-radius: 30px;
+        background: #fff;
+    }
+ 
+    .open-popup{
+        transition: 0.5s;
+        visibility: visible;
+        top: 50%;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    img{
+        width: 100px;
+        margin-top: -50px;
+        border-radius: 50%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 3)
+    }
+
+    .popup button {
+         width: 100%;
+        margin-top: 50px;
+        padding: 10px 0;
+        background: #6fd649;
+        color: #fff;
+        border: 0;
+        outline: none;
+        font-size: 18px;
+        border-radius: 4px;
+        cursor: pointer;
+        box-shadow: 0 2px 5px rgba(0, 0, 0 ) 
+
+
+    }
+
+}
+
+

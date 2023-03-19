@@ -1,0 +1,27 @@
+input {
+    width: 400px;
+    height: 40px;
+    outline: none;
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: none;
+    border: 1px solid rgba(138, 122, 122, 0.5);
+    box-shadow: 0px 2px  3px rgba(220, 223, 237, 0.3);  
+    &:hover {
+        background-color: rgb(248, 245, 222);
+        border-radius: 10px;
+        transition: 0.3s;
+        outline: none;    
+        transform: scale(1.02);
+        cursor: pointer;
+    }
+    .checkbox {
+        height: 100px;
+    }
+
+}
+
+
